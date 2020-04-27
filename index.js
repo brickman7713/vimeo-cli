@@ -72,6 +72,13 @@ program
         lib.getScript('add')(item_name, options);
     });
 
+program
+    .command('edit <item_name>')
+    .description('Edit video title')
+    .option('-t, --title <title>', 'Specify a title')
+    .action((item_name, options) => {
+        lib.getScript('edit')(item_name, options);
+    });
 
 // Alias for `add user -u <user_id>`
 program
