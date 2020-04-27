@@ -1,3 +1,5 @@
+This is not my work! 
+
 # vimeo-cli
 
 A command line interface for Vimeo.
